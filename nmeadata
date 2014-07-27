@@ -1,0 +1,11 @@
+service nmeadata
+{
+        disable         = no
+        socket_type     = stream
+        protocol        = tcp
+        port            = 5900
+        server          = /root/nmea.sh
+        user            = root
+        wait            = no
+}
+
